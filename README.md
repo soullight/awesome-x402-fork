@@ -847,6 +847,7 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 *[KaelAi] (https://kaelai.io) - Wallet trust scoring API for the agentic economy. Scores wallets 0-100 across 10 chains with behavioural analysis. Built for x402 servers to vet incoming and outgoing payment wallets before serving or initiating requests. 
 
 - [stripe-mcps](https://www.npmjs.com/package/stripe-mcps) - Trust verification + AML sanctions screening before Stripe/x402 payments. Agent identity (ECDSA), 75K+ sanctions entries (UK HMT + OFAC SDN), behavioural spend limits. OWASP MCP Security Cheat Sheet aligned. ([GitHub](https://github.com/razashariff/stripe-mcps))
+- [Crest Verify](https://verify.crestsystems.ai) - Verification tools for x402 endpoints, including conformance checks, service indexing, and signed trust receipts. ([npm](https://npmjs.com/package/@crestdeploymentsystems/verify) | [GitHub](https://github.com/andysalvo/crest))
 Security resources and best practices for x402 implementations.
 
 ### Smart Contract Audits
