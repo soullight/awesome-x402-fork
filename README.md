@@ -436,6 +436,7 @@ Enable AI agents to make autonomous payments.
 - [Achilles EP AgentIAM](https://achillesalpha.onrender.com/quickstart) — 5 AI agent verification endpoints (NoLeak, MemGuard, RiskOracle, SecureExec, FlowCore) on Base Mainnet. $0.01-$0.02 USDC per call via x402.
 - [Boundary Guard](https://boundary-guard.vercel.app) - Pre-action checkpoint API for agents. Returns `allow`, `retry`, or `block` plus a deterministic receipt before downstream writes, sends, or other actions. Live docs and x402 inventory are published on the public host. ([GitHub](https://github.com/LarryLemonBot/boundary-guard))
 - [Agent Passport System (APS)](https://github.com/aeoess/agent-passport-system) - Open-source governance and delegation layer for x402. Provides cryptographic agent identity, scoped delegation with spending caps, rotation-aware DID verification, and signed receipts with per-condition attestation. Apache 2.0.
+- [Frisk](https://github.com/Jiangw2718i/frisk) - Pre-transaction screening for agent payments. The `frisk-screen` SDK (TypeScript + Python, MIT, no runtime deps) returns an `allow`/`review`/`block` verdict before an agent pays an x402 seller, checking for the V2 `payTo` swap, spending-policy violations, plaintext-HTTP quotes, and malformed or blocklisted counterparties. Lite mode runs offline with no API key; a hosted reputation tier is in early access. ([npm](https://www.npmjs.com/package/frisk-screen)) ([PyPI](https://pypi.org/project/frisk-screen/))
 
 ### GPU Inference APIs
 
