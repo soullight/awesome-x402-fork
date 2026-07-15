@@ -155,6 +155,8 @@ Real companies using x402 in production with proven scale and transaction volume
 
 - [Ad Agency for Agents — AOP Store](https://adagencyforagents.com) — 77 agent-payable digital products (books, self-paced courses, guided meditations, archetype readings) with x402 checkout in USDC on Base ($7–$997/item). Natural-language discovery: `POST` [`/v0/discover`](https://index.adagencyforagents.com/v0/discover) `{intent}` → ranked, signature-verified offers; full catalog at [`/v0/offers`](https://index.adagencyforagents.com/v0/offers). Authors of the **Agent Offer Protocol (AOP v0)**. On-chain-verified agent reputation at [repforagents.com](https://repforagents.com) and $AGNT settlement at [byagentforagent.com](https://byagentforagent.com). ([Discovery](https://adagencyforagents.com/.well-known/aop.json) | [llms.txt](https://adagencyforagents.com/llms.txt) | [Index API](https://index.adagencyforagents.com/))
 
+- [Ad Agency for Agents — AOP Store](https://adagencyforagents.com) — 77 agent-payable digital products (books, courses, guided meditations, archetype readings) with x402 checkout in USDC on Base ($7–$997/item). Natural-language discovery: `POST` [`/v0/discover`](https://index.adagencyforagents.com/v0/discover) `{intent}` → ranked, signature-verified offers; catalog at [`/v0/offers`](https://index.adagencyforagents.com/v0/offers). Authors of the **Agent Offer Protocol (AOP v0)**. On-chain-verified agent reputation at [repforagents.com](https://repforagents.com) and $AGNT settlement at [byagentforagent.com](https://byagentforagent.com). ([Discovery](https://adagencyforagents.com/.well-known/aop.json) | [llms.txt](https://adagencyforagents.com/llms.txt))
+
 ### Production Success Metrics
 
 **Key Performance Indicators:**
